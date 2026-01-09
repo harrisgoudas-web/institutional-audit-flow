@@ -1,0 +1,43 @@
+mappings:
+  - requirement: lawful_basis
+    gdpr:
+      reference: "Article 6"
+      note: "Processing must have a lawful basis (legal obligation or public interest)."
+    amld:
+      reference: "AMLD record keeping and reporting obligations"
+      note: "Processing required to meet AML/CTF obligations."
+  - requirement: purpose_limitation
+    gdpr:
+      reference: "Article 5(1)(b)"
+      note: "Purpose must be specific and limited."
+    amld:
+      reference: "Customer due diligence and transaction monitoring"
+      note: "Purpose tied to AML/CTF risk monitoring."
+  - requirement: retention
+    gdpr:
+      reference: "Article 5(1)(e)"
+      note: "Storage limitation applies."
+    amld:
+      reference: "AMLD retention rules"
+      note: "Mandatory retention periods for AML records."
+  - requirement: dpia
+    gdpr:
+      reference: "Article 35"
+      note: "DPIA required for high-risk processing."
+    amld:
+      reference: "Risk-based approach"
+      note: "Risk assessments inform AML controls."
+  - requirement: reporting
+    gdpr:
+      reference: "Articles 33-34"
+      note: "Data breach notification when applicable."
+    amld:
+      reference: "Suspicious activity reporting"
+      note: "Obligation to report suspicious transactions."
+  - requirement: sanctions
+    gdpr:
+      reference: "Article 83"
+      note: "Administrative fines for non-compliance."
+    amld:
+      reference: "AMLD penalties"
+      note: "Sanctions for AML breaches."
